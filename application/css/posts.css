@@ -1,0 +1,84 @@
+div.item div.container div.post {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 195px;
+	height: 300px;
+	margin: 10px 10px 10px 5px;
+	padding: 10px;
+	background-color: #ffe7cc;
+	color: black;
+}
+div.item div.container{
+	margin-top: 75px;
+}
+div.item div.container div.post img{
+	position:absolute;
+	margin:auto;
+	width:195px;
+	height:220px;
+}
+div.item div.container div.post div.post_info{
+	margin-top:235px;
+	text-align:center;
+}
+div.item div.container div.post div.title{
+	width:200px;
+	height:20px;
+	margin:0px 0px 10px 0px;
+	overflow:hidden;
+	text-align:center;
+}
+p.jscroll-next
+{
+	display: none;
+}
+div.item{
+	float:left;
+	width:700px;
+}
+div.related_posts li.post:hover{
+	background-color: rgba(17, 38, 64, 0.5);
+	color: white;
+}
+nav.nav{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	min-width: 1024px;
+}
+div.play_button{
+	border-radius: 25px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	bottom: 160px;
+	background: black;
+	padding: 10px;
+	left: 85px;
+	cursor: pointer;
+}
+div.play_button .tri{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 0 15px 26.0px;
+	border-color: transparent transparent transparent #f6f6f6;
+	margin-left: 5px;
+}
+div.item div.container div.post img.loader_img{
+	border-radius: 25px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	bottom: 160px;
+	padding: 10px;
+	left: 85px;
+}
+div.left_rail div.info h2{
+	color: rgba(245,150,36,1.0);
+	text-align: center;
+}
+div.left_rail div.info p{
+	text-align: center;
+}

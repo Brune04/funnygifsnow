@@ -1,0 +1,165 @@
+div.left_rail {
+	float: left;
+	width: 710px;
+	background-color: #ffe7cc;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+div.left_rail div.user_page{
+	width:680px;
+	font-size: 15px;
+}
+div.profile div.container{
+	margin-top:30px;
+}
+div.left_rail div.user_page img.user_image{
+	width: 100px;
+}
+div.user_container{
+	width: 150px;
+	text-align: center;
+	float: left;
+}
+div.user_page div.info{
+	float: left;
+}
+div.clear{
+	clear: both;
+}
+div.profile div.container div.post{
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+	width:220px;
+	height:300px;
+	margin:10px 10px 10px 5px;
+	padding:10px;
+	background-color: #F6F6F6;
+}
+div.profile div.container div.post img.post_image{
+	position:absolute;
+	margin:auto;
+	width:220px;
+	height:220px;
+}
+div.clear{
+	clear: both;
+}
+div.profile div.container div.post div.post_info{
+	margin-top:235px;
+	text-align:center;
+}
+div.profile div.container div.post div.title{
+	width:200px;
+	height:20px;
+	margin:0px 0px 10px 10px;
+	overflow:hidden;
+	text-align:center;
+}
+div.user_posts div.nav ul li{
+	display: inline;
+	padding: 5px;
+}
+div.user_posts div.nav ul li:hover{
+	background-color: #3d577a;
+	color: white;
+	padding-bottom: 10px;
+	cursor: pointer;
+	padding-top: 9px;
+}
+div.user_posts div.nav ul li.selected{
+	background-color: #3d577a;
+	padding-bottom: 10px;
+	cursor: pointer;
+	color: white;
+	padding-top: 9px;
+}
+div.user_posts div.nav ul{
+	padding-top: 10px;
+}
+div.user_posts div.nav{
+	background-color: #112640;
+	font-size: 18px;
+	width: 750px;
+	margin-left: -20px;
+	height: 40px;
+	color: white;
+}
+
+/* edit profile */
+div.right_rail{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+div.social_follow{
+	position: fixed;
+	top: 115px;
+	right: 450px;
+	width: 50px;
+	text-align: center;
+}
+div.login div.container{
+	background: #F6F6F6;
+	padding: 20px;
+	width: 594px;
+	text-align: center;
+	margin-top: 25px;
+	margin-right: 0px;
+}
+p.error{
+	margin: 0px;
+	color: red;
+	font-size: 15px;
+}
+div.profile div.container form li{
+	list-style: none;
+	margin: 10px;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+div.profile div.container form li.top{
+	border-top: 1px solid black;
+	height: 120px;
+}
+div.profile div.container form li.top input.file{
+	margin-right: -215px;
+	margin-top: 100px;
+}
+div.profile div.container form input, div.profile div.container form textarea, div.profile div.container form img{
+	border-radius: 5px;
+	padding: 5px;
+	float: right;
+	margin-right: 200px;
+	margin-top: -7px;
+}
+div.profile div.container form label{
+	font-size: 15px;
+	margin-left: 50px;
+}
+div.profile div.container form img{
+	width: 100px;
+	height: 100px;
+}
+div.profile div.container form li.bio{
+	height: 100px;
+}
+div.profile div.container form textarea{
+	height: 100px;
+	margin-right: 185px;
+}
+div.profile div.left_rail h2{
+	margin-left: 30px;
+}
+div.none{
+	width: 100%;
+	text-align: center;
+	font-size: 15pt;
+	margin-top: 25px;
+}
+div.info div{
+	float: left;
+	margin: 35px;
+}
+div.info div.edit{
+	float: right;
+}
